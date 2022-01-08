@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Functional from './components/Functional';
+import Componentclass from './components/Componentclass';
+import UnionBank from './components/UnionBank';
+import StateClass from './components/StateClass';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Functional />
+    <Componentclass />
+    <UnionBank />
+    <StateClass />
   </React.StrictMode>,
   document.getElementById('root')
 );
